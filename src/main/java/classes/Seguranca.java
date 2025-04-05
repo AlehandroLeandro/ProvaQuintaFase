@@ -16,10 +16,7 @@ public class Seguranca extends Caixa{
     }
     public Seguranca(){}
 
-    public Seguranca(String nome, double salarioBase, boolean trabalhoNoturno) {
-        super(nome, salarioBase);
-        this.trabalhoNoturno = trabalhoNoturno;
-    }
+
 
     public boolean isTrabalhoNoturno() {
         return trabalhoNoturno;

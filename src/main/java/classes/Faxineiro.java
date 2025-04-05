@@ -16,12 +16,6 @@ public class Faxineiro extends Caixa{
         return sal + turnosExtras * valorTurnoExtra;
     }
 
-    public Faxineiro(String nome, double salarioBase, int turnosExtras, double valorExtraTurno) {
-        super(nome, salarioBase);
-        this.turnosExtras = turnosExtras;
-        this.valorTurnoExtra = valorExtraTurno;
-    }
-
     public int getTurnosExtras() {
         return turnosExtras;
     }

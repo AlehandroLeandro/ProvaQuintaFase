@@ -11,10 +11,6 @@ public class Repositor extends Caixa{
         return sal * horasTrabalhadas;
     }
 
-    public Repositor(String nome, double salarioBase, double horasTrabalhadas) {
-        super(nome, salarioBase);
-        this.horasTrabalhadas = horasTrabalhadas;
-    }
 
     public Repositor() {
     }

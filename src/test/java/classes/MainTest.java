@@ -73,7 +73,6 @@ class MainTest {
         seguranca.setNome("Julia");
         seguranca.setSalarioBase(1500.0);
         seguranca.setTrabalhoNoturno();
-        seguranca = new Seguranca("Julia", 1500.0, true);
         assertEquals(1800.0, seguranca.salario());
     }
 

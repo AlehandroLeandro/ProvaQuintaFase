@@ -12,11 +12,6 @@ public class Caixa {
     }
 
 
-    public Caixa(String nome, double salarioBase) {
-        this.nome = nome;
-        this.salarioBase = salarioBase;
-    }
-
     public Caixa() {
     }
 

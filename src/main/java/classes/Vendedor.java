@@ -16,12 +16,6 @@ public class Vendedor extends Caixa {
         return sal + qntVendas * vlComissao;
     }
 
-    public Vendedor(String nome, double salarioBase, int qntVendas, double vlComissao) {
-        super(nome, salarioBase);
-        this.qntVendas = qntVendas;
-        this.vlComissao = vlComissao;
-    }
-
     public int getQntVendas() {
         return qntVendas;
     }
